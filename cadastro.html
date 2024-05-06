@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title> Bem-vindo ao cadastro da YouConect </title>
+    <meta charset="Utf-8">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script>
+        function logar(route) {
+
+            window.location.href = route;
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/img/logoyc.png">
+        </div>
+    </header>
+    <div class="container">
+        <form method="POST" action="/submit">
+            <h1> Criar uma conta </h1>
+            <div id="row1">
+                <input type="text" name="Nome" id="nome" placeholder="Nome">
+                <input type="text" name="Sobrenome" id="sobrenome" placeholder="Sobrenome">
+            </div>
+            <input type="text" name="Email" id="email" placeholder="email">
+            <div id="row2">
+                <input type="text" name="Telefone" id="telefone" placeholder="Telefone">
+                <input type="date" name="data" id="data" placeholder="Data Nascimento">
+            </div>
+            <div id="row3">
+                <select type="text" name="genero" id="genero">
+                    <option> Masculino </option>
+                    <option> Feminino </option>
+                    <option> Outro </option>
+                </select>
+
+                <select type="text" name="curso" id="curso">
+                    <option>Administração</option>
+                    <option> Automação industrial </option>
+                    <option> Biotecnologia </option>
+                    <option>Desenvolvimento de sistemas </option>
+                    <option> Edificações </option>
+                    <option> Eletromecânica </option>
+                    <option> Eletrotécnica </option>
+                    <option> Logística </option>
+                    <option> Manutenção automotiva </option>
+                    <option> Marketing </option>
+                    <option> Mecânica </option>
+                    <option> Mecatrônica </option>
+                    <option> Multimídia </option>
+                    <option> Petroquímica </option>
+                    <option> Qualidade </option>
+                    <option> Química </option>
+                    <option> Redes de computadores </option>
+                    <option> Refrigeração e climatização </option>
+                    <option> Segurança do trabalho </option>
+                </select>
+            </div>
+            <input type="password" name="Senha" id="senha" placeholder="Senha">
+            <input type="submit" value="Cadastrar" id="cadastro">
+            <a onclick="logar('/login')" id="logar"> Fazer login </a>
+        </form>
+    </div>
+</body>
+
+</html>

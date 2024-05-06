@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Apresentando dados </title>
+        <link rel="stylesheet" type="text/css" href="css/visualizar.css">
+    </head>
+    <body>
+        <header> 
+            <div class="logo">
+                <img src="/img/logoyc.png">
+            </div>
+        </header>
+
+        <h1> Exibição de dados </h1>
+        <ul id="minhaLista"></ul>
+
+        <script>
+
+            fetch('/dadosproj')
+
+            .then(response => response.json())
+            .then(data => {
+                const minhaLista = document.getElementById('minhaLista');
+
+                data.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = `${item.nome}| ${item.curso}| ${item.data}| ${item.participante}| ${item.arquivo}| ${item.descricao}`;
+                    minhaLista.appendChild(li);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+        </script>
+    </body>
+</html>

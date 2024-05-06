@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title> Bem-vindo ao cadastro da YouConect </title>
+    <meta charset="Utf-8">
+    <link rel="stylesheet" type="text/css" href="/css/cadastrop.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/img/logoyc.png">
+        </div>
+    </header>
+    <h1> Cadastre seu projeto </h1>
+    <div class="imgproj">
+
+    </div>
+
+    <div class="infor">
+        <form class="formulario" method="POST" action="/envio">
+            <input type="text" name="nome" id="projeto" placeholder="Nome do Projeto">
+            <select type="text" name="curso" id="curso">
+                <option>Administração</option>
+                <option> Automação industrial </option>
+                <option> Biotecnologia </option>
+                <option>Desenvolvimento de sistemas </option>
+                <option> Edificações </option>
+                <option> Eletromecânica </option>
+                <option> Eletrotécnica </option>
+                <option> Logística </option>
+                <option> Manutenção automotiva </option>
+                <option> Marketing </option>
+                <option> Mecânica </option>
+                <option> Mecatrônica </option>
+                <option> Multimídia </option>
+                <option> Petroquímica </option>
+                <option> Qualidade </option>
+                <option> Química </option>
+                <option> Redes de computadores </option>
+                <option> Refrigeração e climatização </option>
+                <option> Segurança do trabalho </option>
+            </select>
+            <input type="date" name="data" id="data">
+            <input type="text" name="participante" id="part" placeholder="Participantes">
+            <input type="file" name="arquivo" id="uploud">
+            <div>
+                <input type="text" name="descricao" id="desc" placeholder="Descreva o seu projeto">
+                <div class="botao">
+                    <button> Salvar </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

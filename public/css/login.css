@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cabin&family=Inter&family=Raleway:wght@400;500&family=Rubik+Bubbles&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cabin;
+}
+
+header {
+  background-color: #62a5c6;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px 3px 10px #464646;
+}
+
+body {
+  background-image: url("../img/tela3.png");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.logo {
+  text-align: center;
+}
+
+img {
+  width: 210px;
+  height: 35px;
+  margin: 2%;
+}
+
+.container {
+  width: 500px;
+  background: rgb(98, 165, 198);
+  background: linear-gradient(180deg, rgba(98, 165, 198, 0.678) 0%, rgba(182, 180, 180, 0.027) 100%);
+  padding: 2rem;
+  margin: 6% auto;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 3px 3px 15px 3px;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input
+{
+  padding: 0.6rem;
+  border-radius: 10px solid white;
+  margin: 10px;
+  border: 2px solid #ffff;
+  
+}
+
+input {
+  background: rgba(255, 255, 255, 0.658);
+
+}
+
+#login {
+    background-color:#588ec0;
+    border:0;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+a {
+    text-align:center;
+    cursor: pointer;
+}
+
+.linha {
+    width: 100%;
+    height: 2px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color:rgba(98, 165, 198, 0.678)
+}
+
+#criarconta {
+    background-color: #c268ce;
+    width: 460px;
+    margin-left: 10px;
+    padding: 0.6rem;
+    border-radius: 5px;
+}

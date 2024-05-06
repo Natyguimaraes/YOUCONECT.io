@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cabin&family=Inter&family=Raleway:wght@400;500&family=Rubik+Bubbles&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cabin;
+}
+body {
+  background-image: url("../img/tela3.png");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header {
+  background-color: #62a5c6;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px 3px 10px #464646;
+}
+
+.logo {
+    text-align: center;
+  }
+  
+  img {
+    width: 210px;
+    height: 35px;
+    margin: 2%;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .imgproj {
+    width: 900px;
+    height: 200px;
+    border: 2px; 
+    margin: auto;
+    margin-top: 2rem;
+    background-image: url("../img/template2.png");
+    border-radius: 5px;
+  }
+
+ 
+  .infor {
+    width: 500px;
+    height:500px;
+margin: 0 auto;
+padding: 25px;         
+  }
+
+  input, 
+  select{
+    padding: 5px;
+    width: 200px;
+    margin: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+  }
+
+  #uploud{
+width: 89%;
+text-align: center;
+ border: 0;
+  }
+
+  #desc {
+    width: 450px;
+    height: 150px;
+    text-align: center;
+    margin-top: 3px;
+  }
+
+  .botao {
+    text-align: center;
+  
+  }
+
+  button {
+    width: 160px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: #62a5c6;
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+  @media (max-width: 600px) {
+    .imgproj {
+      width: 500px;
+      height: 150px;
+  }
+  input, 
+  select{
+    padding: 5px;
+    width: 200px;
+    margin: 10px;
+    height: 30px; 
+  }
+  #desc {
+    width: 420px;
+    height: 150px;
+  }
+  
+  button {
+    width: 400px;
+    height: 35px; 
+    margin: 0 auto;
+  }
+
+}

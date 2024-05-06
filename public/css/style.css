@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cabin&family=Inter&family=Raleway:wght@400;500&family=Rubik+Bubbles&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cabin;
+}
+
+header {
+  background-color: #62a5c6;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px 3px 10px #464646;
+}
+
+body {
+  background-image: url("../img/tela3.png");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.logo {
+  text-align: center;
+}
+
+img {
+  width: 210px;
+  height: 35px;
+  margin: 2%;
+}
+
+.container {
+  width: 500px;
+  background: rgb(98, 165, 198);
+  background: linear-gradient(180deg, rgba(98, 165, 198, 0.678) 0%, rgba(182, 180, 180, 0.027) 100%);
+  padding: 2rem;
+  margin: 6% auto;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 5px 5px 20px 5px;
+}
+
+
+h1 {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select
+{
+  padding: 0.5rem;
+  border-radius: 10px solid white;
+  margin: 10px;
+  border: 2px solid #ffff;
+  box-shadow: 0.5px 0.5px 1px 0.5px;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.658);
+
+}
+
+#nome, #sobrenome,
+#telefone, #data, 
+#genero, #curso {
+    width: 228px;
+}
+
+select {
+  background: rgba(255, 255, 255, 0.658);
+}
+
+#cadastro {
+  background-color: #449fd2;
+  border: 0;
+  color: white;
+  font-size: 25px;
+cursor:pointer;
+}
+
+#logar {
+  text-align: center;
+  text-decoration: underline;
+  color: #9244d2;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+img {
+  margin: 5%;
+}
+  input,
+select
+{
+  padding: 0.2rem;
+  margin: 5px;
+  width: 280px;
+
+}
+
+#nome,
+#sobrenome,
+#telefone,
+#data,
+#genero,
+#curso {
+  width: 280px;
+}
+
+.container {
+  width: 300px;
+  margin: 15% auto; 
+}
+
+#cadastro {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+a {
+  font-size: 12px;
+}
+}
